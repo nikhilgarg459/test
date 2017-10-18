@@ -1,0 +1,8 @@
+<div *ngIf="productsList.length>0">
+    <div class="compStlye" *ngFor="let product of productsList; let i = index;">
+        <app-product [product]="product" (editRequest)="editProduct($event)"></app-product>
+    </div>
+</div>
+<div *ngIf="productsList.length==0">
+    <p>No products found. Add some products</p>
+</div>

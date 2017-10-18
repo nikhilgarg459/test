@@ -1,0 +1,31 @@
+.compStlye{
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.example-card {
+    width: 80%;
+    margin-bottom: 20px;
+    border: 10px black;
+  }
+  
+  .example-header-image {
+    background-image: url('http://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .example-h2 {
+    margin: 10px;
+  }
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .example-margin {
+    margin: 0 10px;
+  }
